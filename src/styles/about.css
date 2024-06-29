@@ -7,7 +7,7 @@
   justify-content: space-between;
   overflow-x: clip;
 }
-/**/
+/**
 .about-header {
   display: flex;
   flex-direction: column;
