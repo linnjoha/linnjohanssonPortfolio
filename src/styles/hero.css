@@ -1,0 +1,94 @@
+.hero-wrapper {
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+  padding: 0;
+  display: flex;
+  overflow: hidden;
+}
+
+.hero-header {
+  margin-top: 8%;
+  margin-left: 5%;
+  max-width: 80rem;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.hero-text {
+  font-size: 3rem;
+  margin: 0;
+  text-shadow: 0px 3px 4px rgba(0, 0, 0, 0.6);
+}
+.hero-name-span {
+  color: rgba(255, 122, 0, 1);
+}
+.hero-sub-text {
+  color: rgba(64, 60, 60, 1);
+  text-wrap: nowrap;
+  margin: 0;
+  font-size: 1rem;
+}
+.hero-btn {
+  margin-left: 0;
+  border-radius: 0.3rem;
+  background-color: rgb(255, 255, 255);
+  padding: 0.3rem 2rem;
+  width: fit-content;
+  border: none;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+  a {
+    color: black;
+  }
+  :hover {
+    opacity: 0.6;
+    transition: ease 0.3s;
+  }
+}
+.motion-earth {
+  width: 350px;
+  height: 350px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+@media (min-width: 1280px) {
+  .motion-earth {
+    flex: 1 1 0%;
+    height: auto;
+  }
+}
+
+@media (min-width: 640px) {
+  .hero-text {
+    font-size: 4rem;
+  }
+  .hero-sub-text {
+    font-size: 1.5rem;
+  }
+  .hero-wrapper {
+    flex-direction: row;
+  }
+  .hero-header {
+    margin-left: 20%;
+  }
+}
+@media (min-width: 750px) {
+  .motion-earth {
+    height: 550px;
+    width: 550px;
+  }
+  .hero-text {
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 450px) {
+  .hero-header {
+    margin-left: 12%;
+  }
+}
