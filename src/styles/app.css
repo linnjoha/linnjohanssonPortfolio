@@ -2,6 +2,6 @@
   position: relative;
   z-index: 0;
 }
-.root-wrapper {
+:root {
   background: linear-gradient(#ffebe0, #ffff);
 }

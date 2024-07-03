@@ -38,7 +38,7 @@ const Navbar = () => {
                 setActive("");
                 window.scrollTo(0, 0);
               }}
-              key={`#${link.id}`}
+              key={`${link.id}`}
               to={`/${link.title}`}
             >
               <li
