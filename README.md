@@ -25,9 +25,9 @@ CSS: For styling the application.
 I chose these technologies because they provide a robust and efficient framework for building modern web applications, allowing for smooth navigation, fast loading times, and dynamic content.
 
 # Features
-About Me: A section with information about my background, interests, and career goals.
-Projects: A showcase of my school projects, including descriptions and links.
-Contact Page: A form to get in touch with me.
+- About Me: A section with information about my background, interests, and career goals.
+- Projects: A showcase of my school projects, including descriptions and links.
+- Contact Page: A form to get in touch with me.
 
 
 
