@@ -24,8 +24,10 @@ import family from "./family.png";
 import hiking from "./hiking.png";
 import iceland from "./iceland.png";
 import outdoor from "./outdoor.png";
+import portfolio from "./screenPortfolio.png";
 
 export {
+  portfolio,
   hiking,
   iceland,
   outdoor,

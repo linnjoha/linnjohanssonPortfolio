@@ -21,6 +21,7 @@ import {
   hiking,
   iceland,
   outdoor,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -131,6 +132,28 @@ const technologies = [
 
 const experiences = [
   {
+    title: "personal portfolio",
+    img: portfolio,
+    link: "https://github.com/linnjoha/linnjohanssonPortfolio",
+    name: "Portfolio",
+    desc: [
+      "React application to show some of my projects.",
+      "Research about three.js, creating own design on figma and deploy on github",
+      "JavaScript with react+vite, css, three.js",
+    ],
+  },
+  {
+    title: "school project TypeScript",
+    img: miniLibrary,
+    link: "https://github.com/linnjoha/mini-library?tab=readme-ov-file",
+    name: "Mini library",
+    desc: [
+      "Using rest-api to fetch information about products and show on UI.",
+      "Search functionality to search for books",
+      "TypeScript and CSS.",
+    ],
+  },
+  {
     title: "school project html, css, javaScript",
     img: starWars,
     link: "https://github.com/linnjoha/star-wars?tab=readme-ov-file",
@@ -160,17 +183,6 @@ const experiences = [
       "Developing a SPA for coffee company from figma skiss.",
       "Ordering function for both guest and signed user width jwt-token.",
       "Fetching data from rest API.",
-    ],
-  },
-  {
-    title: "school project TypeScript",
-    img: miniLibrary,
-    link: "https://github.com/linnjoha/mini-library?tab=readme-ov-file",
-    name: "Mini library",
-    desc: [
-      "Using rest-api to fetch information about products and show on UI.",
-      "Search functionality to search for books",
-      "TypeScript and CSS.",
     ],
   },
 ];
