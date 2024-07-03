@@ -44,8 +44,8 @@ const Works = () => {
   return (
     <div className="works-wrapper">
       <div className="works-header">
-        <h2 className="hero-text">School experiences.</h2>
-        <p className="hero-sub-text">Some of the things I've done so far</p>
+        <h2 className="hero-text">Some of my experiences.</h2>
+        <p className="hero-sub-text">Things I've done so far</p>
       </div>
       <div className="timeline-container">
         <VerticalTimeline lineColor={"#000000"}>

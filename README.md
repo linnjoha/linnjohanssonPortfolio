@@ -8,7 +8,8 @@ Welcome to my portfolio! This project showcases my journey as a developer studen
 - Technologies Used
 - Features
 - Contact
-  I am a passionate developer student with a strong interest in web development and new technologies. I love building interactive web applications and constantly strive to improve my skills. This portfolio is a reflection of my work and growth in the field.
+
+I am a passionate developer student with a strong interest in web development and new technologies. I love building interactive web applications and constantly strive to improve my skills. This portfolio is a reflection of my work and growth in the field.
 
 # Technologies Used
 
@@ -19,7 +20,8 @@ This portfolio is built using the following technologies:
 - React Router: For client-side routing.
 - Three.js: For creating 3D graphics and animations.
 - CSS: For styling the application.
-  I chose these technologies because they provide a robust and efficient framework for building modern web applications, allowing for smooth navigation, fast loading times, and dynamic content.
+
+I chose these technologies because they provide a robust and efficient framework for building modern web applications, allowing for smooth navigation, fast loading times, and dynamic content.
 
 # Features
 
@@ -43,6 +45,4 @@ Feel free to reach out to me through the following channels:
 
 - Email: johanssonlinn1993@gmail.com
 - LinkedIn: www.linkedin.com/in/linn-johansson-795a74293
-![image](https://github.com/linnjoha/linnjohanssonPortfolio/assets/145101089/c2920a0d-c8dc-481f-887a-ec33155f1ac8)
-
-
+  ![image](https://github.com/linnjoha/linnjohanssonPortfolio/assets/145101089/c2920a0d-c8dc-481f-887a-ec33155f1ac8)
