@@ -6,11 +6,7 @@ Welcome to my portfolio! This project showcases my journey as a developer studen
 - About
 - Technologies Used
 - Features
-- Projects
 - Contact
-- Getting Started
-- Usage
-
 I am a passionate developer student with a strong interest in web development and new technologies. I love building interactive web applications and constantly strive to improve my skills. This portfolio is a reflection of my work and growth in the field.
 
 # Technologies Used
