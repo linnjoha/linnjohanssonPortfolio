@@ -43,5 +43,6 @@ Feel free to reach out to me through the following channels:
 
 - Email: johanssonlinn1993@gmail.com
 - LinkedIn: www.linkedin.com/in/linn-johansson-795a74293
-  ![image](https://github.com/linnjoha/linnjohanssonPortfolio/assets/145101089/48d6f996-77d5-4993-8b60-5bc48b863293)
+![image](https://github.com/linnjoha/linnjohanssonPortfolio/assets/145101089/c2920a0d-c8dc-481f-887a-ec33155f1ac8)
+
 
