@@ -1,39 +1,22 @@
-import {
-  createBrowserRouter,
-  createRoutesFromElements,
-  Route,
-  Routes,
-  HashRouter,
-} from "react-router-dom";
-import { Hero, Contact, About, Works, Navbar } from "./components/index";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { About, Contact, Hero, Works } from "./components/index";
 import RootLayout from "./components/layout/RootLayout";
 import "./styles/app.css";
 
-// const router = createBrowserRouter(
-//   createRoutesFromElements(
-//     <Route>
-//       <Route path="/" element={<RootLayout />}>
-//         <Route index element={<Hero />} />
-//         <Route path="/about" element={<About />} />
-//         <Route path="/work" element={<Works />} />
-//         <Route path="/contact" element={<Contact />} />
-//       </Route>
-//     </Route>
-//   )
-// );
-
 function App() {
   return (
-    <>
-      <RootLayout />
+    <BrowserRouter
+      basename={import.meta.env.DEV ? "/" : "/linnjohanssonPortfolio/"}
+    >
       <Routes>
-        {/* <Route path="/" element={<RootLayout />} /> */}
-        <Route index element={<Hero />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/work" element={<Works />} />
-        <Route path="/contact" element={<Contact />} />
+        <Route path="/" element={<RootLayout />}>
+          <Route index element={<Hero />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/work" element={<Works />} />
+          <Route path="/contact" element={<Contact />} />
+        </Route>
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
